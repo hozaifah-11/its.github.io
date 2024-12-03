@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspire Telecom</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins',sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(153, 153, 226);
+            font-size: 1.01rem;
+        }
+        main hr{
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .left{
+            font-size: 1.5rem;
+        }
+        .its{
+            width: 100px;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+        .firstSection > div{
+            width: 30%;
+        }
+        .leftSection{
+            font-size: 2rem;
+        }
+        .rightSection img{
+            width: 70%;
+        }
+        .purple{
+            color: rgb(170, 107, 228);
+        }
+        .text-gray{
+            color: gray;
+        }
+        #element{
+            color: rgb(170, 107, 228);            
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh ;
+        }
+        .secondSection h1{
+            font-size: 1.9rem ;
+        }
+        .secondSection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px ;
+        }
+        .image-top{
+            width: 80px;
+            position: relative;
+            top: -32px;
+            left: -38px;
+        }
+        .image-top1{
+            width: 70px;
+            position: relative;
+            top: -35px;
+            left: -38px;
+        }
+        .image-top2{
+            width: 70px;
+            position: relative;
+            top: -40px;
+            left: -35px;
+        }
+        .image-top3{
+            width: 130px;
+            position: relative;
+            top: -42px;
+            left: -50px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 20px;
+        }
+        footer{
+            background-color: #332b55;
+        }
+        .footer{
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer > div{
+            width: 223px;
+        }
+        footer .footer-rights{
+            text-align: center;
+            color: gray ;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <img class="its" src="logo.png" alt="">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact US</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+               <span class="purple">Inspire Telecom Services</span>
+                <div>ITS  is </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="tele.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">Achievement</span>
+            <h1>Our Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="airtel.png" alt="">
+                    <div class="vertical-title">
+                        Airtel UGANDA
+                    </div>
+                    <div class="vertical-desc">
+                        Airtel 5G, Airtel DC
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top1" src="mtn.png" alt="">
+                    <div class="vertical-title">
+                        MTN UGANDA
+                    </div>
+                    <div class="vertical-desc">
+                        MTN 5G, MTN DC
+                    </div>
+                </div><div class="vertical">
+                    <img class="image-top2" src="zte.png" alt="">
+                    <div class="vertical-title">
+                        ZTE UGANDA
+                    </div>
+                    <div class="vertical-desc">
+                        Smart City, Smart Education
+                    </div>
+                </div><div class="vertical">
+                    <img class="image-top3" src="civil.png" alt="">
+                    <div class="vertical-title">
+                        CIVIL UGANDA
+                    </div>
+                    <div class="vertical-desc">
+                        Tower Consturtion, Data Center
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Inspire Telecom Services</h3>
+            </div>
+            <div class="footer-second"></div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact US</li>
+            </ul>
+            <div class="footer-third"></div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; 2024  |  www.inspiretelecom.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> 
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['a premium Telecom Solution Provider Company', 'involved in delivering high end Telecom Solutions....'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
+</html>
